@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="card-container">
+      <div class="img-circle">
+        <img src="./img/icon-star.svg" alt="icon-star" />
+      </div>
+      <h3>How did we do?</h3>
+      <p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <article class="number-container">
+        <input type="radio" id="number1" name="rating" class="numbers" value="1" />
+        <label class="hover-color" for="number1">1</label>
+
+        <input type="radio" id="number2" name="rating" class="numbers" value="2" />
+        <label class="hover-color" for="number2">2</label>
+
+        <input type="radio" id="number3" name="rating" class="numbers" value="3" />
+        <label class="hover-color" for="number3">3</label>
+
+        <input type="radio" id="number4" name="rating" class="numbers" value="4" />
+        <label class="hover-color" for="number4">4</label>
+
+        <input type="radio" id="number5" name="rating" class="numbers" value="5" />
+        <label class="hover-color" for="number5">5</label>
+      </article>
+
+      <button class="button-orange" id="btn-submit">SUBMIT</button>
+    </section>
+    <section class="thanks-container">
+      <img src="./img/illustration-thank-you.svg" alt="illustration-thank-you" />
+      <span>You selected <span id="calification"></span> out of 5</span>
+      <span>Thank you!</span>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+    </section>
+  </body>
+  <script src="./main.js"></script>
+</html>
